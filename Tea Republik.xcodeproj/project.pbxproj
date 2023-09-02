@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793106082AA460D6007E0076 /* Tea Republik App Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 793105F92AA460D4007E0076 /* Tea Republik App Clip.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		796750012AA36DCE008A1121 /* GPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796750002AA36DCE008A1121 /* GPApp.swift */; };
+		796750032AA36DCE008A1121 /* GPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796750022AA36DCE008A1121 /* GPContentView.swift */; };
+		796750052AA36DD0008A1121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796750042AA36DD0008A1121 /* Assets.xcassets */; };
+		796750082AA36DD0008A1121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796750072AA36DD0008A1121 /* Preview Assets.xcassets */; };
+		7967500B2AA36DD0008A1121 /* Tea Republik Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 79674FFE2AA36DCE008A1121 /* Tea Republik Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79AE4F782AA36230008FD6EB /* GPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AE4F772AA36230008FD6EB /* GPApp.swift */; };
+		79AE4F7A2AA36230008FD6EB /* GPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AE4F792AA36230008FD6EB /* GPContentView.swift */; };
+		79AE4F7C2AA36231008FD6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AE4F7B2AA36231008FD6EB /* Assets.xcassets */; };
+		79AE4F802AA36231008FD6EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AE4F7F2AA36231008FD6EB /* Preview Assets.xcassets */; };
+		79D981372AA36B8D00E3B4E5 /* Shared Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D981362AA36B8D00E3B4E5 /* Shared Assets.xcassets */; };
+		79DE59262AA37B5300B2A61D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79DE59252AA37B5300B2A61D /* GoogleService-Info.plist */; };
+		79DE59282AA37CB300B2A61D /* Shared Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D981362AA36B8D00E3B4E5 /* Shared Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		793106062AA460D6007E0076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AE4F6C2AA36230008FD6EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793105F82AA460D4007E0076;
+			remoteInfo = "Tea Republik App Clip";
+		};
+		796750092AA36DD0008A1121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AE4F6C2AA36230008FD6EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79674FFD2AA36DCE008A1121;
+			remoteInfo = "Tea Republik Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7967500F2AA36DD0008A1121 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7967500B2AA36DD0008A1121 /* Tea Republik Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D9812F2AA365A100E3B4E5 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				793106082AA460D6007E0076 /* Tea Republik App Clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		793105F92AA460D4007E0076 /* Tea Republik App Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Republik App Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79674FFE2AA36DCE008A1121 /* Tea Republik Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Republik Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796750002AA36DCE008A1121 /* GPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPApp.swift; sourceTree = "<group>"; };
+		796750022AA36DCE008A1121 /* GPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPContentView.swift; sourceTree = "<group>"; };
+		796750042AA36DD0008A1121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796750072AA36DD0008A1121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79AE4F742AA36230008FD6EB /* Tea Republik App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Republik App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AE4F772AA36230008FD6EB /* GPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPApp.swift; sourceTree = "<group>"; };
+		79AE4F792AA36230008FD6EB /* GPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPContentView.swift; sourceTree = "<group>"; };
+		79AE4F7B2AA36231008FD6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79AE4F7D2AA36231008FD6EB /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		79AE4F7F2AA36231008FD6EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79D0A41D2AA3644B00474B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Tea Republik App/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
+		79D9811E2AA3659F00E3B4E5 /* GPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPApp.swift; sourceTree = "<group>"; };
+		79D981202AA3659F00E3B4E5 /* GPContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPContentView.swift; sourceTree = "<group>"; };
+		79D981222AA365A100E3B4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D981252AA365A100E3B4E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79D981272AA365A100E3B4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D981282AA365A100E3B4E5 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		79D981362AA36B8D00E3B4E5 /* Shared Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Shared Assets.xcassets"; sourceTree = "<group>"; };
+		79DE59252AA37B5300B2A61D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		793105F62AA460D4007E0076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79674FFB2AA36DCE008A1121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AE4F712AA36230008FD6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79674FFF2AA36DCE008A1121 /* Tea Republik Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				796750112AA36E46008A1121 /* App */,
+				796750102AA36E2C008A1121 /* Resources */,
+			);
+			path = "Tea Republik Watch App";
+			sourceTree = "<group>";
+		};
+		796750062AA36DD0008A1121 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				796750072AA36DD0008A1121 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		796750102AA36E2C008A1121 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				796750042AA36DD0008A1121 /* Assets.xcassets */,
+				796750062AA36DD0008A1121 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		796750112AA36E46008A1121 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				796750002AA36DCE008A1121 /* GPApp.swift */,
+				796750022AA36DCE008A1121 /* GPContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		79AE4F6B2AA36230008FD6EB = {
+			isa = PBXGroup;
+			children = (
+				79D981322AA36A9600E3B4E5 /* Shared */,
+				79AE4F762AA36230008FD6EB /* Tea Republik App */,
+				79D9811D2AA3659F00E3B4E5 /* Tea Republik App Clip */,
+				79674FFF2AA36DCE008A1121 /* Tea Republik Watch App */,
+				79AE4F752AA36230008FD6EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79AE4F752AA36230008FD6EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AE4F742AA36230008FD6EB /* Tea Republik App.app */,
+				79674FFE2AA36DCE008A1121 /* Tea Republik Watch App.app */,
+				793105F92AA460D4007E0076 /* Tea Republik App Clip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AE4F762AA36230008FD6EB /* Tea Republik App */ = {
+			isa = PBXGroup;
+			children = (
+				79D0A41F2AA364F300474B43 /* App */,
+				79D0A41E2AA364DA00474B43 /* Resources */,
+			);
+			path = "Tea Republik App";
+			sourceTree = "<group>";
+		};
+		79AE4F7E2AA36231008FD6EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79AE4F7F2AA36231008FD6EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79D0A41E2AA364DA00474B43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79AE4F7B2AA36231008FD6EB /* Assets.xcassets */,
+				79AE4F7D2AA36231008FD6EB /* Entitlements.entitlements */,
+				79AE4F7E2AA36231008FD6EB /* Preview Content */,
+				79D0A41D2AA3644B00474B43 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79D0A41F2AA364F300474B43 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79AE4F772AA36230008FD6EB /* GPApp.swift */,
+				79AE4F792AA36230008FD6EB /* GPContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		79D9811D2AA3659F00E3B4E5 /* Tea Republik App Clip */ = {
+			isa = PBXGroup;
+			children = (
+				79D981332AA36AE800E3B4E5 /* App */,
+				79D981342AA36AF300E3B4E5 /* Resources */,
+			);
+			path = "Tea Republik App Clip";
+			sourceTree = "<group>";
+		};
+		79D981242AA365A100E3B4E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79D981252AA365A100E3B4E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79D981322AA36A9600E3B4E5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				79D981352AA36B7600E3B4E5 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		79D981332AA36AE800E3B4E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79D9811E2AA3659F00E3B4E5 /* GPApp.swift */,
+				79D981202AA3659F00E3B4E5 /* GPContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		79D981342AA36AF300E3B4E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79D981222AA365A100E3B4E5 /* Assets.xcassets */,
+				79D981282AA365A100E3B4E5 /* Entitlements.entitlements */,
+				79D981272AA365A100E3B4E5 /* Info.plist */,
+				79D981242AA365A100E3B4E5 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79D981352AA36B7600E3B4E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79DE59252AA37B5300B2A61D /* GoogleService-Info.plist */,
+				79D981362AA36B8D00E3B4E5 /* Shared Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		793105F82AA460D4007E0076 /* Tea Republik App Clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793106092AA460D6007E0076 /* Build configuration list for PBXNativeTarget "Tea Republik App Clip" */;
+			buildPhases = (
+				793105F52AA460D4007E0076 /* Sources */,
+				793105F62AA460D4007E0076 /* Frameworks */,
+				793105F72AA460D4007E0076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tea Republik App Clip";
+			productName = "Tea Republik App Clip";
+			productReference = 793105F92AA460D4007E0076 /* Tea Republik App Clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		79674FFD2AA36DCE008A1121 /* Tea Republik Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7967500C2AA36DD0008A1121 /* Build configuration list for PBXNativeTarget "Tea Republik Watch App" */;
+			buildPhases = (
+				79674FFA2AA36DCE008A1121 /* Sources */,
+				79674FFB2AA36DCE008A1121 /* Frameworks */,
+				79674FFC2AA36DCE008A1121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tea Republik Watch App";
+			productName = "Tea Republik Watch Watch App";
+			productReference = 79674FFE2AA36DCE008A1121 /* Tea Republik Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79AE4F732AA36230008FD6EB /* Tea Republik App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AE4F832AA36231008FD6EB /* Build configuration list for PBXNativeTarget "Tea Republik App" */;
+			buildPhases = (
+				79AE4F702AA36230008FD6EB /* Sources */,
+				79AE4F712AA36230008FD6EB /* Frameworks */,
+				79AE4F722AA36230008FD6EB /* Resources */,
+				79D9812F2AA365A100E3B4E5 /* Embed App Clips */,
+				7967500F2AA36DD0008A1121 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7967500A2AA36DD0008A1121 /* PBXTargetDependency */,
+				793106072AA460D6007E0076 /* PBXTargetDependency */,
+			);
+			name = "Tea Republik App";
+			productName = "gp-tea-republic-ios";
+			productReference = 79AE4F742AA36230008FD6EB /* Tea Republik App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AE4F6C2AA36230008FD6EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = GP;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Greg PFISTER";
+				TargetAttributes = {
+					793105F82AA460D4007E0076 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					79674FFD2AA36DCE008A1121 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					79AE4F732AA36230008FD6EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 79AE4F6F2AA36230008FD6EB /* Build configuration list for PBXProject "Tea Republik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AE4F6B2AA36230008FD6EB;
+			packageReferences = (
+				79D981302AA369F600E3B4E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				79D981312AA36A5A00E3B4E5 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 79AE4F752AA36230008FD6EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AE4F732AA36230008FD6EB /* Tea Republik App */,
+				793105F82AA460D4007E0076 /* Tea Republik App Clip */,
+				79674FFD2AA36DCE008A1121 /* Tea Republik Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		793105F72AA460D4007E0076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79674FFC2AA36DCE008A1121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DE59282AA37CB300B2A61D /* Shared Assets.xcassets in Resources */,
+				796750082AA36DD0008A1121 /* Preview Assets.xcassets in Resources */,
+				796750052AA36DD0008A1121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AE4F722AA36230008FD6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D981372AA36B8D00E3B4E5 /* Shared Assets.xcassets in Resources */,
+				79DE59262AA37B5300B2A61D /* GoogleService-Info.plist in Resources */,
+				79AE4F802AA36231008FD6EB /* Preview Assets.xcassets in Resources */,
+				79AE4F7C2AA36231008FD6EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		793105F52AA460D4007E0076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79674FFA2AA36DCE008A1121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796750032AA36DCE008A1121 /* GPContentView.swift in Sources */,
+				796750012AA36DCE008A1121 /* GPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AE4F702AA36230008FD6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AE4F7A2AA36230008FD6EB /* GPContentView.swift in Sources */,
+				79AE4F782AA36230008FD6EB /* GPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		793106072AA460D6007E0076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 793105F82AA460D4007E0076 /* Tea Republik App Clip */;
+			targetProxy = 793106062AA460D6007E0076 /* PBXContainerItemProxy */;
+		};
+		7967500A2AA36DD0008A1121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 79674FFD2AA36DCE008A1121 /* Tea Republik Watch App */;
+			targetProxy = 796750092AA36DD0008A1121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7931060A2AA460D6007E0076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tea Republik App Clip/Resources/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik App Clip/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik App Clip/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republik";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7931060B2AA460D6007E0076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tea Republik App Clip/Resources/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik App Clip/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik App Clip/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republik";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7967500D2AA36DD0008A1121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik Watch App/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik Watch App/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republik";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2023, Greg PFISTER. All rights reserved.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "org.gpfister.tea-republik.app";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7967500E2AA36DD0008A1121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik Watch App/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik Watch App/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republik";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2023, Greg PFISTER. All rights reserved.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "org.gpfister.tea-republik.app";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		79AE4F812AA36231008FD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79AE4F822AA36231008FD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79AE4F842AA36231008FD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tea Republik App/Resources/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik App/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik App/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republic";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2023, Greg PFISTER. All rights reserved.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79AE4F852AA36231008FD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tea Republik App/Resources/Entitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tea Republik App/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tea Republik App/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tea Republic";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright (c) 2023, Greg PFISTER. All rights reserved.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.gpfister.tea-republik.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		793106092AA460D6007E0076 /* Build configuration list for PBXNativeTarget "Tea Republik App Clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7931060A2AA460D6007E0076 /* Debug */,
+				7931060B2AA460D6007E0076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7967500C2AA36DD0008A1121 /* Build configuration list for PBXNativeTarget "Tea Republik Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7967500D2AA36DD0008A1121 /* Debug */,
+				7967500E2AA36DD0008A1121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AE4F6F2AA36230008FD6EB /* Build configuration list for PBXProject "Tea Republik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AE4F812AA36231008FD6EB /* Debug */,
+				79AE4F822AA36231008FD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AE4F832AA36231008FD6EB /* Build configuration list for PBXNativeTarget "Tea Republik App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AE4F842AA36231008FD6EB /* Debug */,
+				79AE4F852AA36231008FD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79D981302AA369F600E3B4E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		79D981312AA36A5A00E3B4E5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 79AE4F6C2AA36230008FD6EB /* Project object */;
+}
