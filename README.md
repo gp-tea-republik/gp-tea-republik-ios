@@ -54,7 +54,7 @@ using compliant subcontractors for data processors.
 
 ## Contributions
 
-Please refer to the [CONTRIBUTION.md](./CONTRIBUTION.md) file for details.
+Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for details.
 
 ## License
 
