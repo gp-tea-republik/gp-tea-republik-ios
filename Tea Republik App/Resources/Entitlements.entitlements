@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:app.tea-republik.org</string>
+		<string>applinks:app.tea-republik.org</string>
 		<string>webcredentials:app.tea-republik.org</string>
 	</array>
 	<key>com.apple.developer.devicecheck.appattest-environment</key>
