@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.parent-application-identifiers</key>
 	<array>
-		<string>$(AppIdentifierPrefix)org.gpfister.tea-republik.app</string>
+		<string>$(AppIdentifierPrefix)org.tea-republik.app</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
